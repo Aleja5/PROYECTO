@@ -1,5 +1,5 @@
-const signInBtn = document.getElementById("signIn");
-const signUpBtn = document.getElementById("signUp");
+const signInBtn = document.getElementById("Operario");
+const signUpBtn = document.getElementById("Administracion");
 const container = document.getElementById("container");
 
 signInBtn.addEventListener("click", () => {
@@ -9,6 +9,5 @@ signInBtn.addEventListener("click", () => {
 signUpBtn.addEventListener("click", () => {
   container.classList.add("right-panel-active");
 });
-
 
 
